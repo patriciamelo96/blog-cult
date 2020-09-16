@@ -1,2 +1,5 @@
-# blog-cult
-site  blog
+# BLOG CURIOSIDADES
+## Intretedimento:
+* Livros;
+* Cinema;
+* Músicas.
