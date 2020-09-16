@@ -11,6 +11,7 @@ a, ul{
     color: black;
 }
 
+/* particles-js */
 #particles-js{
     position: relative;
     height: 140vh;
@@ -21,6 +22,42 @@ a, ul{
     }
 }
 
+/* Menu principal do site */
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: antiquewhite;
+    width: 100%;
+}
+nav .menu-site{
+    display: flex;
+    margin: 22px 355px;
+    padding: 20px;
+} 
+nav .li-nav{
+    margin-left: 112px;
+}
+nav .menu-a{
+    padding: 10px
+}
+@media (max-width: 600px){
+    nav{
+        margin-top: 125px;
+        margin-left: 10px;
+        width: 96%;
+    }
+    nav .menu-site{
+        display: flex;
+        margin: 20px;
+    } 
+    nav .li-nav{
+        margin-left: 35px;
+    }
+}
+
+
 /* Cabeçalho do site*/
 header{
     position: absolute;
@@ -30,12 +67,13 @@ header{
     margin-left: 80px;
     background-color: antiquewhite;
     width: 80%;
+    margin-top: 67px;
 }
 header .logo{
     height: 150px;
     width: 217px;
     margin-left: 187px;
-    margin-top: 20px;
+    padding: 12px;
 }
 header .rede-social{
     display: flex;
@@ -63,37 +101,6 @@ header .li-header{
         margin: 0 130px;
     }
 } 
-
-/* Menu principal do site */
-nav{
-    position: absolute;
-    margin-top: 175px;
-    background-color: antiquewhite;
-    margin-left: 80px;
-    width: 80%;
-}
-nav .menu-site{
-    display: flex;
-    margin: 22px 355px;
-} 
-nav .li-nav{
-    margin-left: 112px;
-    width: 80%;
-}
-@media (max-width: 600px){
-    nav{
-        margin-top: 125px;
-        margin-left: 10px;
-        width: 96%;
-    }
-    nav .menu-site{
-        display: flex;
-        margin: 20px;
-    } 
-    nav .li-nav{
-        margin-left: 35px;
-    }
-}
 
 /* Corpo do site */
 .container{
