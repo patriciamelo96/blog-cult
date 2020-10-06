@@ -1,0 +1,153 @@
+/* Outros */
+*{margin: 0; padding: 0;}
+    
+i{
+    font-size: 60px;
+    color: black;
+}
+a, ul{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+/* particles-js */
+#particles-js{
+    position: relative;
+    height: 153vh;
+}
+@media (max-width:600px){
+    #particles-js{
+        height: 190vh;
+    }
+}
+
+/* nemu-site */    
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: antiquewhite;
+    width: 100%;
+}
+nav .menu-site{
+    display: flex;
+    margin: 22px 355px;
+    padding: 20px;
+} 
+nav .li-nav{
+    margin-left: 112px;
+}
+nav .menu-a{
+    padding: 10px
+}
+@media (max-width: 600px){
+    nav{
+        height: 67px;
+    }
+    nav .menu-site{
+        display: flex;
+        margin: 20px;
+    } 
+    nav .li-nav{
+        margin-left: 35px;
+    }
+}
+
+/* Cabeçalho do site*/
+header{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 80px;
+    background-color: antiquewhite;
+    width: 80%;
+    margin-top: 67px;
+}
+header .logo{
+    height: 150px;
+    width: 217px;
+    margin-left: 187px;
+    padding: 12px;
+}
+header .rede-social{
+    display: flex;
+    flex-direction: row;
+    margin: 0 279px;
+}
+header .li-header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 61px;
+}
+@media (max-width: 600px){
+    header{
+        margin-left: 10px;
+        width: 96%;
+    }
+    header .logo{
+        height: 97px;
+        width: 147px;
+        margin-left: 11px;
+        margin-top: 20px;
+    }
+    header .rede-social{
+        margin: 0 100px;
+    }
+}
+
+/* conteúdo site*/
+article{
+    position: absolute;
+    background-color: antiquewhite;
+    margin-top: 20%;
+}
+
+h2{
+    text-align: center;
+    margin: 5px;
+}
+
+.discos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: end;
+    margin: 20px;
+
+}
+
+.disco{
+    width: 155px;
+    margin: 30px 0;
+}
+
+.texto{
+    text-align: justify;
+    text-transform: unset;
+    width: 740px;
+    margin: 30px 131px;
+}
+
+.quarry{
+    text-decoration: underline;
+}
+
+/* rodape site */
+footer{
+    position: absolute;
+    margin-top: 891px;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 109px;
+}
+@media (max-width: 600px){
+    footer{
+        margin-top: 1065px;
+        width: 100%;
+        height: 70px;
+    }
+}
