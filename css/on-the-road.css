@@ -102,7 +102,7 @@ header .li-header{
 /* conteúdo site */
 .road{
     position: absolute;
-    background-image: url(/img/on-the-road.jpg);
+    background-image: url(img/on-the-road.jpg);
     height: 40%;
     width: 100%;
     background-position: center;
